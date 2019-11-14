@@ -4,6 +4,7 @@ html {
 
 body {
   background-image: url(/images/background.png);
+  background-color: rgb(68, 33, 221);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -73,7 +74,8 @@ body {
   width: auto;
   height: auto;
   display: block;
-  
+  margin-right: 10px;
+  margin-left: -25px;  
 }
 
 /* The button used to open the sidebar */
@@ -132,6 +134,54 @@ body {
 
 
 
+.codepre{
+  width:  100%; 
+  height: auto;
+  background-color: rgba(227, 166, 235, 0.733);
+  border-radius: 4px;
+}
+
+.center{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.no--style{
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+}
+
+a.one{
+  border-radius: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+a.one:link {
+  background-color: white;
+
+}
+
+
+a.one:visited {
+  background-color: white;
+}
+
+
+a.one:hover {
+  background-color: white;
+}
+
+a.one:active {
+  background-color: white;
+}
+
+
+
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -150,7 +200,9 @@ body {
 .column {
   float: left;
   width: 20%;
-  margin-top: 10px;
+  margin-top: 10px;  
+  margin-left: 1%;
+  margin-right:1%;
 }
 
 /* Clear floats after the columns */
@@ -159,7 +211,8 @@ body {
   display: table;
   clear: both;
   padding: 0%;
-  margin: 0%
+  margin: 0%;
+
 }
 
 
